@@ -41,37 +41,37 @@
 
 
 
-import random
+# import random
 
 
-def rand_bool():
-    Value = random.randint(0, 1)
-    if Value == 0:
-        return False
-    elif Value == 1:
-        return True
-    else:
-        print("error")
+# def rand_bool():
+#     Value = random.randint(0, 1)
+#     if Value == 0:
+#         return False
+#     elif Value == 1:
+#         return True
+#     else:
+#         print("error")
 
 
-class car:
+# class car:
 
-    def __init__(self, model, color, engine_type, servo_type):
-        self.model = model
-        self.color = color
-        self.engine_type = engine_type
-        self.servo_type = servo_type
-
-
-    def Break(self):
-        Value = random.randint(1, 2)
-        if Value == 1:
-            print(f"{self.model} has broken its {self.EngineType} Engine"})
-
-            elif Value == 2:
-
-                print(f"{self.model} has broken its {self.ServoType} Servo")
+#     def __init__(self, model, color, engine_type, servo_type):
+#         self.model = model
+#         self.color = color
+#         self.engine_type = engine_type
+#         self.servo_type = servo_type
 
 
-    def Drive(self):
-        print(f"")
+#     def Break(self):
+#         Value = random.randint(1, 2)
+#         if Value == 1:
+#             print(f"{self.model} has broken its {self.EngineType} Engine"})
+
+#             elif Value == 2:
+
+#                 print(f"{self.model} has broken its {self.ServoType} Servo")
+
+
+#     def Drive(self):
+#         print(f"")
